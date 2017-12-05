@@ -38,7 +38,7 @@ def today():
     print('pengyufang baby，I love you!')
 
 today()
-# 解决装饰器 返回函数时，函数名不一致的问题
+# from functools import wraps 解决装饰器 返回函数时，函数名不一致的问题
 print(today.__name__)
 
 

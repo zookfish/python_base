@@ -27,7 +27,7 @@ print('test' in ab)
 print(set([2,3,4,5]))
 
 
-# 遍历字典
+# 遍历字典  keys values items
 for i in ab:
     print(i,ab[i])
 
